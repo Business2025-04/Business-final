@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/GRV", // 👈 Add this line
+  base: '/GRV/', // 👈 This should match your repo name
   server: {
     host: "::",
     port: 8080,
